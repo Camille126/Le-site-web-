@@ -1,0 +1,86 @@
+body {
+ font-family:"trebuchet ms",sans-serif;
+ font-size:90%;
+ background-color:  #34495e ;
+ text-align:center;
+ }
+form {
+ background-color: #f2f3f4;
+ padding:10px;
+ width:280px;
+ }
+fieldset {
+ padding:0 20px 20px 20px;
+ margin-bottom:10px;
+ border:1px solid  #5dade2;
+ }
+legend {
+ color:#5dade2;
+ font-weight:bold
+ }
+label {
+ margin-top:10px;
+ display:block;
+ }
+label.inline {
+ display:inline;
+ margin-right:10px;
+ }
+input, textarea, select, option {
+ background-color:#fdedec;
+ text-align:center;
+ }
+input, textarea, select {
+ padding:3px;
+ border:1px solid #5dade2;
+ border-radius:5px;
+ width:200px;
+ box-shadow:1px 1px 2px #C0C0C0 inset;
+ }
+select {
+ margin-top:10px;
+ text-align:center;
+ }
+input[type=radio] {
+ background-color: transparent ;
+ border:none;
+ width:10px;
+ text-align:center;
+ }
+input[type=submit], input[type=reset] {
+ width:100px;
+ margin-left:5px;
+ box-shadow:1px 1px 1px #5dade2;
+ cursor:pointer;
+ text-align:center;
+ }
+ 
+hr {
+	display: block;
+	clear: both;
+	height: 0;
+	margin: 24px 0 28px;
+	padding: 0;
+	border: 0;
+	font-family: arial;
+	text-align: center;
+	font-size: 16px;
+	line-height: 1;
+}
+#formulaire {
+	text-align:center;
+	margin-top:10px;
+	margin-right:1000px;
+	border: 3px solid rgb (100,200,300);
+	width: 400px;
+	height:30px;
+	margin-bottom: 20px;
+}
+
+
+form {
+    text-align:center;
+	display:inline-block;
+	width: 1300px;
+	margin:0 auto;
+}
